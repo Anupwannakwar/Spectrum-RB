@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Ladder
   - Boundary
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - BG_buildings
   - Ground
   - Buildings
-  - 
+  - NPC
   - player
   - 
   - 
