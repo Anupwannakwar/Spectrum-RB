@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7128718269695773635}
   - component: {fileID: 7128718269695773657}
   - component: {fileID: 7128718269695773662}
+  - component: {fileID: 1098538031975254806}
   m_Layer: 0
   m_Name: DroidZapperB
   m_TagString: Enemy
@@ -184,8 +185,21 @@ MonoBehaviour:
   detectRange: 2.59
   target: {fileID: 1233047276236761440, guid: 4ba7daba66eeaae44a6fbd31f09e61d1, type: 3}
   stopingDistance: 0.99
-  ZapperHealth: 10
   spriter: {fileID: 7128718269695773660}
+--- !u!114 &1098538031975254806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7128718269695773632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6033de5555702848a88e9d953a6b233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseHealth: 20
+  anim: {fileID: 7128718269695773661}
 --- !u!1 &7128718270605070023
 GameObject:
   m_ObjectHideFlags: 0

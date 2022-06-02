@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool Crouch = false;
     bool isWalking = false;
+    bool isShooting = false;
 
     public bool isRunning
     {
@@ -100,7 +101,12 @@ public class PlayerMovement : MonoBehaviour
         {
             horizontal = Input.GetAxis("Horizontal") * CurrentSpeed;
         }
-       
+
+        if (anim.GetBool("IsShooting") == true && anim.GetFloat("Speed") < 0.01)
+        {
+            horizontal = 0;
+        }
+
         if (!isWalking && controller.m_Grounded)
         {
             anim.SetBool("IsWalking", false);
@@ -135,12 +141,16 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetMouseButton(0))
             {
+                isShooting = true;
                 anim.SetBool("IsShooting", true);
                 Shoot();
                 timeBetweenShots = StartTimeBtwShots;
             }
             else
+            {
                 anim.SetBool("IsShooting", false);
+                isShooting = false;
+            }
         }
         else
         {

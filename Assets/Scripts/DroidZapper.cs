@@ -30,7 +30,7 @@ public class DroidZapper : MonoBehaviour
 
     private Animator anim;
 
-    public int ZapperHealth;
+    //public int ZapperHealth;
     //effects
 
     public SpriteRenderer spriter;
@@ -152,16 +152,16 @@ public class DroidZapper : MonoBehaviour
         }
     }
 
-    public void takeDamage(int Damage)
-    {
-        ZapperHealth -= Damage;
-        anim.SetTrigger("IsHurt");
-        if (ZapperHealth == 0)
-        {
-            Destroy(this.gameObject);
+    //public void takeDamage(int Damage)
+    //{
+    //    ZapperHealth -= Damage;
+    //    anim.SetTrigger("IsHurt");
+    //    if (ZapperHealth == 0)
+    //    {
+    //        Destroy(this.gameObject);
 
-        }
-    }
+    //    }
+    //}
 
    /* public void setVolume(float musicvol)
     {

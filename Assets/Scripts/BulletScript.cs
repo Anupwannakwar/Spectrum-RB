@@ -65,12 +65,12 @@ public class BulletScript : MonoBehaviour
         {
             if(GameManager.instance.RedActive && collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
             {
-                collision.gameObject.GetComponent<DroidZapper>().takeDamage(5);
+                collision.gameObject.GetComponent<Enemy>().takeDamage(5);
                 StartCoroutine(DeactivateBullet(0));
             }
             if (GameManager.instance.BlueActive && !collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
             {
-                collision.gameObject.GetComponent<DroidZapper>().takeDamage(5);
+                collision.gameObject.GetComponent<Enemy>().takeDamage(5);
                 StartCoroutine(DeactivateBullet(0));
             }
         }
