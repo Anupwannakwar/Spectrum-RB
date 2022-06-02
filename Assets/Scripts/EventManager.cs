@@ -14,12 +14,6 @@ public class EventManager : MonoBehaviour
         instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     //Score Event
     public event UnityAction<int> OnUpdateScore;
 
