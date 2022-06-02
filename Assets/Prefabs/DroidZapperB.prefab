@@ -172,6 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   patrol: {fileID: 7128718269695773657}
+  isSpectrumR: 0
   EnemyattackPos: {fileID: 7128718270605070022}
   EnemyattackRangeX: 1.45
   EnemyattackRangeY: 0.73
@@ -183,7 +184,7 @@ MonoBehaviour:
   detectRange: 2.59
   target: {fileID: 1233047276236761440, guid: 4ba7daba66eeaae44a6fbd31f09e61d1, type: 3}
   stopingDistance: 0.99
-  ZapperHealth: 50
+  ZapperHealth: 10
   spriter: {fileID: 7128718269695773660}
 --- !u!1 &7128718270605070023
 GameObject:

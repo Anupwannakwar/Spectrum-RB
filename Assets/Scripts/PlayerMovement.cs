@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
+    public static PlayerMovement instance;
 
     public Animator anim;
     public SpectrumBar SB;
@@ -23,6 +24,18 @@ public class PlayerMovement : MonoBehaviour
     bool Crouch = false;
     bool isWalking = false;
 
+    public bool isRunning
+    {
+        get
+        {
+            return horizontal != 0;
+        }
+        set
+        {
+            isRunning = false;
+        }
+    }
+
 
     //player shoot
     [SerializeField] private BulletPooling bulletList = null;
@@ -36,14 +49,33 @@ public class PlayerMovement : MonoBehaviour
     private const int MAXHEALTH = 100;
     private int m_health;
 
+    private void OnEnable()
+    {
+        EventManager.Instance.OnUpdateHealth += UpdatePlayerHealth;
+    }
+
+    private void OnDisable()
+    {
+        EventManager.Instance.OnUpdateHealth -= UpdatePlayerHealth;
+    }
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Start()
     {
         timeBetweenShots = StartTimeBtwShots;
 
-        m_health = MAXHEALTH;
-        //health event
-        EventManager.Instance.OnUpdateHealth += UpdatePlayerHealth;
-        
+        m_health = MAXHEALTH;    
     }
 
     // Update is called once per frame
@@ -69,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
             horizontal = Input.GetAxis("Horizontal") * CurrentSpeed;
         }
        
-        if (!isWalking)
+        if (!isWalking && controller.m_Grounded)
         {
             anim.SetBool("IsWalking", false);
             anim.SetFloat("Speed", Mathf.Abs(horizontal));

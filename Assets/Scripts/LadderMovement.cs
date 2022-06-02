@@ -18,7 +18,7 @@ public class LadderMovement : MonoBehaviour
     {
         vertical = Input.GetAxis("Vertical");
 
-        if(isLadder && Mathf.Abs(vertical) > 0f)
+        if(isLadder && Mathf.Abs(vertical) > 0f && !PlayerMovement.instance.isRunning)
         {
             isClimbing = true;
         }
@@ -30,7 +30,15 @@ public class LadderMovement : MonoBehaviour
         {
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
-            anim.SetBool("IsClimbing", true);
+            if(Mathf.Abs(vertical) > 0f)
+            {
+                anim.SetBool("IsClimbing", true);
+                anim.SetBool("ClimbIdle", false);
+            }
+            else
+            {
+                anim.SetBool("ClimbIdle", true);
+            }
         }
         else
         {
@@ -54,6 +62,7 @@ public class LadderMovement : MonoBehaviour
         {
             isLadder = false;
             isClimbing = false;
+            anim.SetBool("ClimbIdle", false);
         }
     }
 }
