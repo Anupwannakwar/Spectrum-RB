@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool Crouch = false;
     bool isWalking = false;
-    bool isShooting = false;
 
     public bool isRunning
     {
@@ -141,7 +140,6 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetMouseButton(0))
             {
-                isShooting = true;
                 anim.SetBool("IsShooting", true);
                 Shoot();
                 timeBetweenShots = StartTimeBtwShots;
@@ -149,7 +147,6 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 anim.SetBool("IsShooting", false);
-                isShooting = false;
             }
         }
         else
