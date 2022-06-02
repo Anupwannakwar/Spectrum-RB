@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour {
     public GameObject RedPanel;
     public GameObject BluePanel;
 
+    public bool isConversing = false;
+
     private void Awake()
     {
         if(instance == null)
@@ -21,6 +23,17 @@ public class GameManager : MonoBehaviour {
         else
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        if(isConversing)
+        {
+            if(Input.GetKeyDown(KeyCode.Return))
+            {
+                DialougeManager.instance.DisplayNextSentence();
+            }
         }
     }
 
