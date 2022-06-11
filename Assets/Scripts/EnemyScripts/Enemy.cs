@@ -12,7 +12,11 @@ public class Enemy : MonoBehaviour
     public void takeDamage(int Damage)
     {
         BaseHealth -= Damage;
-        anim.SetTrigger("IsHurt");
+        if(anim.GetComponent<Striker>() == null)
+        {
+            anim.SetTrigger("IsHurt");
+        }
+       
         if (BaseHealth == 0)
         {
             Destroy(this.gameObject);
