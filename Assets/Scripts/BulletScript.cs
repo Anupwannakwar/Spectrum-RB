@@ -63,16 +63,25 @@ public class BulletScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && shotByPlayer)
         {
-            if(GameManager.instance.RedActive && collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
+            if(collision.gameObject.GetComponent<DroidZapper>() != null)
+            {
+                if (GameManager.instance.RedActive && collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
+                {
+                    collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                    StartCoroutine(DeactivateBullet(0));
+                }
+                if (GameManager.instance.BlueActive && !collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
+                {
+                    collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                    StartCoroutine(DeactivateBullet(0));
+                }
+            }
+            else if(collision.gameObject.GetComponent<Striker>() != null)
             {
                 collision.gameObject.GetComponent<Enemy>().takeDamage(5);
                 StartCoroutine(DeactivateBullet(0));
             }
-            if (GameManager.instance.BlueActive && !collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
-            {
-                collision.gameObject.GetComponent<Enemy>().takeDamage(5);
-                StartCoroutine(DeactivateBullet(0));
-            }
+            
         }
         
         /*if(collision.gameObject.CompareTag("Player") && !shotByPlayer)

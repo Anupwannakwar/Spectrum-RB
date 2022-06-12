@@ -6,11 +6,14 @@ public class Striker_Run : StateMachineBehaviour
 {
 
     public float speed = 2.5f;
-    public float SlashRange = 4f;
-    public float ShootRange = 7f;
+    public float SlashRange;
+    public float ShootRange;
+
+    int StrikerHealth;
 
     private bool Shoot = false;
     private bool Dash = false;
+    private bool HalfPhase = false;
 
     Transform player;
     Rigidbody2D rb;
@@ -22,6 +25,7 @@ public class Striker_Run : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         striker = animator.GetComponent<Striker>();
+        StrikerHealth = striker.GetComponent<Enemy>().BaseHealth;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -31,7 +35,7 @@ public class Striker_Run : StateMachineBehaviour
         {
             GetRandomDash();
         }
-        if (!Dash)
+        if (!Dash && animator.GetBool("Stagger") == false)
         {
             striker.LookAtPlayer();
 
@@ -75,6 +79,13 @@ public class Striker_Run : StateMachineBehaviour
             animator.SetTrigger("Dash");
             Dash = false;
         }
+
+        if(StrikerHealth <= 250 && HalfPhase == false)
+        {
+            HalfPhase = true;
+            animator.SetBool("Stagger", true);
+            striker.setStagger();
+        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
@@ -87,7 +98,7 @@ public class Striker_Run : StateMachineBehaviour
 
     public void GetShootOrSlash()
     {
-        int i = Random.Range(1, 7);
+        int i = Random.Range(1, 50);
         if(i == 1)
         {
             Shoot = true;
@@ -99,7 +110,7 @@ public class Striker_Run : StateMachineBehaviour
     }
     public void GetRandomDash()
     {
-        int i = Random.Range(1, 5);
+        int i = Random.Range(1, 9);
         bool playerShooting = player.GetComponent<PlayerMovement>().anim.GetBool("IsShooting");
         if (i == 1 && playerShooting)
         {

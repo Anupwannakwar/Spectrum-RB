@@ -18,8 +18,6 @@ public class Striker : MonoBehaviour
     public float EnemyShootRangeX;
     public float EnemyShootRangeY;
     public LayerMask whatIsPlayer;
-    private float timeBtwAttack;
-    public float startTimeBtwAttack;
 
     private void Start()
     {
@@ -51,7 +49,7 @@ public class Striker : MonoBehaviour
         Collider2D[] ToHit = Physics2D.OverlapBoxAll(EnemyattackPos.position, new Vector2(EnemyattackRangeX, EnemyattackRangeY), 0, whatIsPlayer);
         for (int i = 0; i < ToHit.Length; i++)
         {
-            EventManager.Instance.UpdateHealth(-15);
+            EventManager.Instance.UpdateHealth(-7);
         }         
     }
 
@@ -64,10 +62,21 @@ public class Striker : MonoBehaviour
         }    
     }
 
+    public void setStagger()
+    {
+        StartCoroutine(Stagger());
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(EnemyattackPos.position, new Vector3(EnemyattackRangeX, EnemyattackRangeY, 0));
         Gizmos.DrawWireCube(EnemyShootPos.position, new Vector3(EnemyShootRangeX, EnemyShootRangeY, 0));
+    }
+
+    public IEnumerator Stagger()
+    {
+        yield return new WaitForSeconds(3.0f);
+        anim.SetBool("Stagger", false);
     }
 }

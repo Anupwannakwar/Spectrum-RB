@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
     public float StartTimeBtwShots;
 
     //player health
-    private const int MAXHEALTH = 100;
+    private const int MAXHEALTH = 1000;
     private int m_health;
 
     private void OnEnable()
@@ -212,7 +212,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetTrigger("IsHurt");
             Debug.Log(m_health);
 
-            if (m_health == 0)
+            if (m_health <= 0)
             {
                 gameObject.SetActive(false);
             }

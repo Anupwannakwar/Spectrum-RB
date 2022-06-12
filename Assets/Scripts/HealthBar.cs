@@ -6,31 +6,35 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    /* public Slider slider;
+    public bool IsPlayerHealthBar = true;
 
-     public void setMaxHealth(int health)
-     {
-         slider.maxValue = health;
-         slider.value = health;
-     }
-
-     public void setHealth(int health)
-     {
-         slider.value = health;
-     }*/
+    public Slider slider;
 
     public Image image;
-
 
     private float _health = 1f;
 
     private void Update()
     {
-        if (image.fillAmount > _health) image.fillAmount -= 0.01f;
+        if(image != null)
+        {
+            if (image.fillAmount > _health && IsPlayerHealthBar) image.fillAmount -= 0.01f;
+        }
     }
 
     public void setHealth(int health)
     {
         _health = health / 100f;
+    }
+
+    public void setMaxHealth(int health)
+    {
+        slider.maxValue = health;
+        slider.value = health;
+    }
+
+    public void setBossHealth(int health)
+    {
+        slider.value = health;
     }
 }
