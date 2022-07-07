@@ -8,15 +8,25 @@ public class Patrol : MonoBehaviour
     public float patrolingRange;
     public bool isFacingRight = false;
 
+    private Sentry_Drone sd;
+
     void Start()
     {
         characterIntialPos = transform.position;
+        sd = GetComponent<Sentry_Drone>();
     }
 
     public void Flip()
     {
         isFacingRight = !isFacingRight;
-        transform.Rotate(0, 180, 0);
+        if(sd != null)
+        {
+            sd.anim.SetBool("Turn", isFacingRight);
+        }
+        else
+        {
+            transform.Rotate(0, 180, 0);
+        }
     }
     public void patrol()
     {

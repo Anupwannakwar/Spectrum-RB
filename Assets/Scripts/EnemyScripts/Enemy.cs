@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     public enum EnemyName
     {
         DroidZapper,
+        SentryDrone,
         Striker
     }
 
@@ -37,12 +38,23 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            anim.SetTrigger("IsHurt");
+            if(enemyName == EnemyName.DroidZapper)
+                anim.SetTrigger("IsHurt");
         }
        
         if (BaseHealth <= 0)
-        {
-            Destroy(this.gameObject);
+        { 
+            if (enemyName == EnemyName.SentryDrone)
+                StartCoroutine(Destroyed());
+            else
+                Destroy(this.gameObject);
         }
+    }
+
+    public IEnumerator Destroyed()
+    {
+        anim.SetBool("Destroyed", true);
+        yield return new WaitForSeconds(0.35f);
+        Destroy(this.gameObject);
     }
 }

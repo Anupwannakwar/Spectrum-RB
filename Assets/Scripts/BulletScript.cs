@@ -81,6 +81,11 @@ public class BulletScript : MonoBehaviour
                 collision.gameObject.GetComponent<Enemy>().takeDamage(5);
                 StartCoroutine(DeactivateBullet(0));
             }
+            else if(collision.gameObject.GetComponent<Sentry_Drone>() != null)
+            {
+                collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                StartCoroutine(DeactivateBullet(0));
+            }
             
         }
         

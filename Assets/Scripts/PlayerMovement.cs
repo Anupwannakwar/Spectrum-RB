@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
     public float StartTimeBtwShots;
 
     //player health
-    private const int MAXHEALTH = 1000;
+    private const int MAXHEALTH = 100;
     private int m_health;
 
     private void OnEnable()
