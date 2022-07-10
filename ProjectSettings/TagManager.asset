@@ -8,6 +8,7 @@ TagManager:
   - Ladder
   - Boundary
   - NPC
+  - Laser
   layers:
   - Default
   - TransparentFX

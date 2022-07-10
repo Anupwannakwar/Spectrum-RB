@@ -1,0 +1,3396 @@
+fileFormatVersion: 2
+guid: 04c2ab49ca3917d4e88f5b361b7b8996
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2210986969324284674
+    second: LaserBeamSheet_0
+  - first:
+      213: -8284525853762297438
+    second: LaserBeamSheet_1
+  - first:
+      213: 1580099593488238793
+    second: LaserBeamSheet_2
+  - first:
+      213: 343317698422553479
+    second: LaserBeamSheet_3
+  - first:
+      213: -2244701146685110831
+    second: LaserBeamSheet_4
+  - first:
+      213: -7251552917365500791
+    second: LaserBeamSheet_5
+  - first:
+      213: -7278538678702709406
+    second: LaserBeamSheet_6
+  - first:
+      213: 696264406340308131
+    second: LaserBeamSheet_7
+  - first:
+      213: 6481701432989202654
+    second: LaserBeamSheet_8
+  - first:
+      213: -7854506338815857860
+    second: LaserBeamSheet_9
+  - first:
+      213: -787025080792887542
+    second: LaserBeamSheet_10
+  - first:
+      213: -4663849375016104834
+    second: LaserBeamSheet_11
+  - first:
+      213: 8834764721570801855
+    second: LaserBeamSheet_12
+  - first:
+      213: -6619578598461876507
+    second: LaserBeamSheet_13
+  - first:
+      213: -1370525739447392634
+    second: LaserBeamSheet_14
+  - first:
+      213: -4558076451209089429
+    second: LaserBeamSheet_15
+  - first:
+      213: -6263781659621999094
+    second: LaserBeamSheet_16
+  - first:
+      213: -2777609464341911001
+    second: LaserBeamSheet_17
+  - first:
+      213: -1657327951407968212
+    second: LaserBeamSheet_18
+  - first:
+      213: 1781825936308303104
+    second: LaserBeamSheet_19
+  - first:
+      213: -4905934224263067601
+    second: LaserBeamSheet_20
+  - first:
+      213: 3296765501850686649
+    second: LaserBeamSheet_21
+  - first:
+      213: 982498349562940556
+    second: LaserBeamSheet_22
+  - first:
+      213: 6686790855481629169
+    second: LaserBeamSheet_23
+  - first:
+      213: -6475691865859668321
+    second: LaserBeamSheet_24
+  - first:
+      213: 4473226980805319969
+    second: LaserBeamSheet_25
+  - first:
+      213: 166800668714244346
+    second: LaserBeamSheet_26
+  - first:
+      213: 2279460722109232942
+    second: LaserBeamSheet_27
+  - first:
+      213: 5078647111978955961
+    second: LaserBeamSheet_28
+  - first:
+      213: -3815737856131727246
+    second: LaserBeamSheet_29
+  - first:
+      213: 5224660728347063615
+    second: LaserBeamSheet_30
+  - first:
+      213: -487981389089299874
+    second: LaserBeamSheet_31
+  - first:
+      213: -3237151926167961195
+    second: LaserBeamSheet_32
+  - first:
+      213: 1401311712582936895
+    second: LaserBeamSheet_33
+  - first:
+      213: -5244268069393797420
+    second: LaserBeamSheet_34
+  - first:
+      213: 4545680996320421716
+    second: LaserBeamSheet_35
+  - first:
+      213: -6151937754175441506
+    second: LaserBeamSheet_36
+  - first:
+      213: 1735537995635902103
+    second: LaserBeamSheet_37
+  - first:
+      213: -8346719152819045290
+    second: LaserBeamSheet_38
+  - first:
+      213: -3854955486261366699
+    second: LaserBeamSheet_39
+  - first:
+      213: -973984665707866753
+    second: LaserBeamSheet_40
+  - first:
+      213: -7205405715211083896
+    second: LaserBeamSheet_41
+  - first:
+      213: 633852391895368585
+    second: LaserBeamSheet_42
+  - first:
+      213: -5572689759886431715
+    second: LaserBeamSheet_43
+  - first:
+      213: 6331776409004791805
+    second: LaserBeamSheet_44
+  - first:
+      213: -3675893677720961938
+    second: LaserBeamSheet_45
+  - first:
+      213: -402928875987813663
+    second: LaserBeamSheet_46
+  - first:
+      213: -2133915242741583357
+    second: LaserBeamSheet_47
+  - first:
+      213: -1874044882720868425
+    second: LaserBeamSheet_48
+  - first:
+      213: -6098680365207087857
+    second: LaserBeamSheet_49
+  - first:
+      213: -7571678149018162863
+    second: LaserBeamSheet_50
+  - first:
+      213: -4955243685360121740
+    second: LaserBeamSheet_51
+  - first:
+      213: 7098610403082764077
+    second: LaserBeamSheet_52
+  - first:
+      213: 8777813529399916619
+    second: LaserBeamSheet_53
+  - first:
+      213: -3118049360919580529
+    second: LaserBeamSheet_54
+  - first:
+      213: 6471461082542344884
+    second: LaserBeamSheet_55
+  - first:
+      213: -7102281697329311568
+    second: LaserBeamSheet_56
+  - first:
+      213: -7049245680419419933
+    second: LaserBeamSheet_57
+  - first:
+      213: 4960369215326753956
+    second: LaserBeamSheet_58
+  - first:
+      213: -7483468378817788722
+    second: LaserBeamSheet_59
+  - first:
+      213: -8200755660240304822
+    second: LaserBeamSheet_60
+  - first:
+      213: -6694435840259933395
+    second: LaserBeamSheet_61
+  - first:
+      213: -5647324675901531678
+    second: LaserBeamSheet_62
+  - first:
+      213: -2715178087501772026
+    second: LaserBeamSheet_63
+  - first:
+      213: -7009597080020952422
+    second: LaserBeamSheet_64
+  - first:
+      213: -6231909002031696367
+    second: LaserBeamSheet_65
+  - first:
+      213: 8189298737012353380
+    second: LaserBeamSheet_66
+  - first:
+      213: -4399264715866837055
+    second: LaserBeamSheet_67
+  - first:
+      213: 82435774743038726
+    second: LaserBeamSheet_68
+  - first:
+      213: 8586756510279919064
+    second: LaserBeamSheet_69
+  - first:
+      213: -6692525855202371417
+    second: LaserBeamSheet_70
+  - first:
+      213: -3784269216885285428
+    second: LaserBeamSheet_71
+  - first:
+      213: -3734728077578331175
+    second: LaserBeamSheet_72
+  - first:
+      213: -2136260096810069817
+    second: LaserBeamSheet_73
+  - first:
+      213: -6616226260151719750
+    second: LaserBeamSheet_74
+  - first:
+      213: -6098138377957971371
+    second: LaserBeamSheet_75
+  - first:
+      213: -966298599107620263
+    second: LaserBeamSheet_76
+  - first:
+      213: -3051230903468548133
+    second: LaserBeamSheet_77
+  - first:
+      213: 9127888511817643737
+    second: LaserBeamSheet_78
+  - first:
+      213: -4022079751560435117
+    second: LaserBeamSheet_79
+  - first:
+      213: -3171503994413230350
+    second: LaserBeamSheet_80
+  - first:
+      213: 2261589301273865661
+    second: LaserBeamSheet_81
+  - first:
+      213: -8807387045482977429
+    second: LaserBeamSheet_82
+  - first:
+      213: -2540485273145365203
+    second: LaserBeamSheet_83
+  - first:
+      213: -4707108931350703138
+    second: LaserBeamSheet_84
+  - first:
+      213: 9061647201212239311
+    second: LaserBeamSheet_85
+  - first:
+      213: -4364573824860550008
+    second: LaserBeamSheet_86
+  - first:
+      213: 8194651008482643795
+    second: LaserBeamSheet_87
+  - first:
+      213: 3008326990472655296
+    second: LaserBeamSheet_88
+  - first:
+      213: 8776556306772784949
+    second: LaserBeamSheet_89
+  - first:
+      213: -2866905147473872233
+    second: LaserBeamSheet_90
+  - first:
+      213: 7487512308079478605
+    second: LaserBeamSheet_91
+  - first:
+      213: -5140317114041438341
+    second: LaserBeamSheet_92
+  - first:
+      213: 8222553120856181257
+    second: LaserBeamSheet_93
+  - first:
+      213: -5535817345448154358
+    second: LaserBeamSheet_94
+  - first:
+      213: -2047182823129108802
+    second: LaserBeamSheet_95
+  - first:
+      213: -8877430654575716597
+    second: LaserBeamSheet_96
+  - first:
+      213: 1221718322754611619
+    second: LaserBeamSheet_97
+  - first:
+      213: -1605075510537257300
+    second: LaserBeamSheet_98
+  - first:
+      213: 5515494616204172697
+    second: LaserBeamSheet_99
+  - first:
+      213: -2684615006421931877
+    second: LaserBeamSheet_100
+  - first:
+      213: -7377685085010052713
+    second: LaserBeamSheet_101
+  - first:
+      213: 4231126981564240712
+    second: LaserBeamSheet_102
+  - first:
+      213: -413206207084930968
+    second: LaserBeamSheet_103
+  - first:
+      213: 3946757964838369043
+    second: LaserBeamSheet_104
+  - first:
+      213: 4542830690565955151
+    second: LaserBeamSheet_105
+  - first:
+      213: -534388976921224261
+    second: LaserBeamSheet_106
+  - first:
+      213: 2620549477749283354
+    second: LaserBeamSheet_107
+  - first:
+      213: -8186713890254446902
+    second: LaserBeamSheet_108
+  - first:
+      213: 900066401826820408
+    second: LaserBeamSheet_109
+  - first:
+      213: -468426980919978879
+    second: LaserBeamSheet_110
+  - first:
+      213: -9196909075225746493
+    second: LaserBeamSheet_111
+  - first:
+      213: 7089225187719624309
+    second: LaserBeamSheet_112
+  - first:
+      213: -4684860377692226412
+    second: LaserBeamSheet_113
+  - first:
+      213: 1290032819468405770
+    second: LaserBeamSheet_114
+  - first:
+      213: 3232078732457995615
+    second: LaserBeamSheet_115
+  - first:
+      213: -6657949214093056309
+    second: LaserBeamSheet_116
+  - first:
+      213: 5854039736787805129
+    second: LaserBeamSheet_117
+  - first:
+      213: -8114992324294317854
+    second: LaserBeamSheet_118
+  - first:
+      213: 8277986460505963922
+    second: LaserBeamSheet_119
+  - first:
+      213: -1714411505919949058
+    second: LaserBeamSheet_120
+  - first:
+      213: 4531376086129596800
+    second: LaserBeamSheet_121
+  - first:
+      213: 3162229380458548780
+    second: LaserBeamSheet_122
+  - first:
+      213: -7641042076022230389
+    second: LaserBeamSheet_123
+  - first:
+      213: 5332869226299493404
+    second: LaserBeamSheet_124
+  - first:
+      213: 7375427546559706777
+    second: LaserBeamSheet_125
+  - first:
+      213: 1609619038061437703
+    second: LaserBeamSheet_126
+  - first:
+      213: -329419464987505788
+    second: LaserBeamSheet_127
+  - first:
+      213: 487161984573254940
+    second: LaserBeamSheet_128
+  - first:
+      213: 2039069940239253903
+    second: LaserBeamSheet_129
+  - first:
+      213: -159048085952750459
+    second: LaserBeamSheet_130
+  - first:
+      213: 8109988685870719380
+    second: LaserBeamSheet_131
+  - first:
+      213: -551563314225227613
+    second: LaserBeamSheet_132
+  - first:
+      213: -1368008159839719923
+    second: LaserBeamSheet_133
+  - first:
+      213: 8268391845513559161
+    second: LaserBeamSheet_134
+  - first:
+      213: 8850334259269090924
+    second: LaserBeamSheet_135
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaserBeamSheet_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 609
+        width: 10
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef49862d01ff051e0800000000000000
+      internalID: -2210986969324284674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 789
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a165f911a3770d80800000000000000
+      internalID: -8284525853762297438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 729
+        width: 10
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80b936534ade510800000000000000
+      internalID: 1580099593488238793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 609
+        width: 10
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bb493b0a5b3c400800000000000000
+      internalID: 343317698422553479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 729
+        width: 10
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d50ce4333839d0e0800000000000000
+      internalID: -2244701146685110831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 789
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9845b72ca0f4d5b90800000000000000
+      internalID: -7251552917365500791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 609
+        width: 20
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265ebf392af6dfa90800000000000000
+      internalID: -7278538678702709406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 789
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac89a1e9c0a9a900800000000000000
+      internalID: 696264406340308131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 729
+        width: 20
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8367d9c11a3f950800000000000000
+      internalID: 6481701432989202654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 609
+        width: 20
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ba3dc89103ff290800000000000000
+      internalID: -7854506338815857860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 729
+        width: 20
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f440edbdce315f0800000000000000
+      internalID: -787025080792887542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 789
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ccc3c14bda64fb0800000000000000
+      internalID: -4663849375016104834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb86167a4b36b9a70800000000000000
+      internalID: 8834764721570801855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 609
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d6e336588224a0800000000000000
+      internalID: -6619578598461876507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 609
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68665b0f91aeafce0800000000000000
+      internalID: -1370525739447392634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 609
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eeb9a0e957eb0c0800000000000000
+      internalID: -4558076451209089429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 609
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ebf9b74c39219a0800000000000000
+      internalID: -6263781659621999094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 609
+        width: 20
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a232998e2f379d0800000000000000
+      internalID: -2777609464341911001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 609
+        width: 20
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c209004520dfff8e0800000000000000
+      internalID: -1657327951407968212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 609
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005fb31af315ab810800000000000000
+      internalID: 1781825936308303104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 359
+        width: 10
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f284e57d0de9aebb0800000000000000
+      internalID: -4905934224263067601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 539
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b49295c1c670cd20800000000000000
+      internalID: 3296765501850686649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 479
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4b1e1b0982ad00800000000000000
+      internalID: 982498349562940556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 359
+        width: 10
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9105cdad04ccc50800000000000000
+      internalID: 6686790855481629169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_24
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 479
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964c84ce88b126a0800000000000000
+      internalID: -6475691865859668321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 539
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d18962d38141e30800000000000000
+      internalID: 4473226980805319969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 359
+        width: 20
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8920f0358905200800000000000000
+      internalID: 166800668714244346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 539
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27b6cc137542af10800000000000000
+      internalID: 2279460722109232942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 479
+        width: 20
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4b119f3aafa7640800000000000000
+      internalID: 5078647111978955961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 359
+        width: 20
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2700241f2a6cb0bc0800000000000000
+      internalID: -3815737856131727246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 479
+        width: 20
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357f014049b18840800000000000000
+      internalID: 5224660728347063615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_31
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 539
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a45613875a39f0800000000000000
+      internalID: -487981389089299874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59189cc69735313d0800000000000000
+      internalID: -3237151926167961195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 359
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a9100495727310800000000000000
+      internalID: 1401311712582936895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_34
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 359
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deebd8e9fd9837b0800000000000000
+      internalID: -5244268069393797420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_35
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 359
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4572ce738c0851f30800000000000000
+      internalID: 4545680996320421716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 359
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95fe0af43def9aa0800000000000000
+      internalID: -6151937754175441506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 359
+        width: 20
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796421c9c9ed51810800000000000000
+      internalID: 1735537995635902103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 359
+        width: 20
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c7540472f7a2c80800000000000000
+      internalID: -8346719152819045290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 359
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b270e862708ac0800000000000000
+      internalID: -3854955486261366699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f751ecf5b16bb72f0800000000000000
+      internalID: -973984665707866753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f164a8da1410c90800000000000000
+      internalID: -7205405715211083896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_42
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98384f26465ebc800800000000000000
+      internalID: 633852391895368585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_43
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a23825034d9a2b0800000000000000
+      internalID: -5572689759886431715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7dde7c81dfed750800000000000000
+      internalID: 6331776409004791805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_45
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c76530d2a9cfcc0800000000000000
+      internalID: -3675893677720961938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_46
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eabff47252886af0800000000000000
+      internalID: -402928875987813663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b897846fc262e0800000000000000
+      internalID: -2133915242741583357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_48
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b848bb1e0ef5e0800000000000000
+      internalID: -1874044882720868425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_49
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f059e2125822d5ba0800000000000000
+      internalID: -6098680365207087857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1596f2607defbe690800000000000000
+      internalID: -7571678149018162863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_51
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 259
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478cc964f107b3bb0800000000000000
+      internalID: -4955243685360121740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ff3a23d84538260800000000000000
+      internalID: 7098610403082764077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48ff7ce5ee01d970800000000000000
+      internalID: 8777813529399916619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_54
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80314a50a67ab4d0800000000000000
+      internalID: -3118049360919580529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_55
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba83ba319f3fc950800000000000000
+      internalID: 6471461082542344884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b09deffc60af6d90800000000000000
+      internalID: -7102281697329311568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c424f66c0c2e90800000000000000
+      internalID: -7049245680419419933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_58
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4955a2585c6d440800000000000000
+      internalID: 4960369215326753956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_59
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec482b89821652890800000000000000
+      internalID: -7483468378817788722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a454a9d2d20113e80800000000000000
+      internalID: -8200755660240304822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_61
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bb9a962169813a0800000000000000
+      internalID: -6694435840259933395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_62
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e95799c02ca0a1b0800000000000000
+      internalID: -5647324675901531678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_63
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 159
+        width: 20
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b48804aefb15ad0800000000000000
+      internalID: -2715178087501772026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_64
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a5cba1898e8be90800000000000000
+      internalID: -7009597080020952422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_65
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116775dd7cfc389a0800000000000000
+      internalID: -6231909002031696367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4692d2300db36a170800000000000000
+      internalID: 8189298737012353380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_67
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfe8d99c0ca2f2c0800000000000000
+      internalID: -4399264715866837055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_68
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bc75e76eed42100800000000000000
+      internalID: 82435774743038726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5e1003d894a2770800000000000000
+      internalID: 8586756510279919064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_70
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a89b86713f5f13a0800000000000000
+      internalID: -6692525855202371417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_71
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd5b1972339b7bc0800000000000000
+      internalID: -3784269216885285428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_72
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db1443d9949b2cc0800000000000000
+      internalID: -3734728077578331175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_73
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c05bc5a2ca7a52e0800000000000000
+      internalID: -2136260096810069817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ab0a45417e24a0800000000000000
+      internalID: -6616226260151719750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_75
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a63ae547f0f5ba0800000000000000
+      internalID: -6098138377957971371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_76
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9529b353b840792f0800000000000000
+      internalID: -966298599107620263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_77
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf101fc8a9d7a5d0800000000000000
+      internalID: -3051230903468548133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_78
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d672486d36ccae70800000000000000
+      internalID: 9127888511817643737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_79
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae2fd96c3be28c0800000000000000
+      internalID: -4022079751560435117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_80
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f65441abed8cf3d0800000000000000
+      internalID: -3171503994413230350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_81
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbda042bc77c26f10800000000000000
+      internalID: 2261589301273865661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_82
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b672c9a4520e5c580800000000000000
+      internalID: -8807387045482977429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_83
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d2f09aa126ebcd0800000000000000
+      internalID: -2540485273145365203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_84
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3d5c3cd5dfcaeb0800000000000000
+      internalID: -4707108931350703138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_85
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd0b2c6e1071cd70800000000000000
+      internalID: 9061647201212239311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_86
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 59
+        width: 10
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c08351b3bed63c0800000000000000
+      internalID: -4364573824860550008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_87
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 59
+        width: 9
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f87e2dcaf39b170800000000000000
+      internalID: 8194651008482643795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1b7538579bfb920800000000000000
+      internalID: 3008326990472655296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537f768f5779cc970800000000000000
+      internalID: 8776556306772784949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_90
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab41835f4b638d0800000000000000
+      internalID: -2866905147473872233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47417e06ccf8e760800000000000000
+      internalID: 7487512308079478605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_92
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fe2b0c1dce9a8b0800000000000000
+      internalID: -5140317114041438341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_93
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a896b9f706c1270800000000000000
+      internalID: 8222553120856181257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_94
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bed1f4473dc23b0800000000000000
+      internalID: -5535817345448154358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_95
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeab1d9112f693e0800000000000000
+      internalID: -2047182823129108802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_96
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d9d3bad70dc480800000000000000
+      internalID: -8877430654575716597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_97
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9ef53775a64f010800000000000000
+      internalID: 1221718322754611619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_98
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae7fb4c350a9b9e0800000000000000
+      internalID: -1605075510537257300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_99
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ddd6f8129fa8c40800000000000000
+      internalID: 5515494616204172697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_100
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98a98710e45ebad0800000000000000
+      internalID: -2684615006421931877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_101
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799374bf0823d9990800000000000000
+      internalID: -7377685085010052713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84315bf729bf7ba30800000000000000
+      internalID: 4231126981564240712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_103
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86857b7d42ff34af0800000000000000
+      internalID: -413206207084930968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_104
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31772ac4573b5c630800000000000000
+      internalID: 3946757964838369043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_105
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e1de1b1706b0f30800000000000000
+      internalID: 4542830690565955151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd9ba8e087598f0800000000000000
+      internalID: -534388976921224261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_107
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ad491addf0e5420800000000000000
+      internalID: 2620549477749283354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_108
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace90a58713f26e80800000000000000
+      internalID: -8186713890254446902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_109
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831d62baf9dad7c00800000000000000
+      internalID: 900066401826820408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_110
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 29
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1845e078420df79f0800000000000000
+      internalID: -468426980919978879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_111
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 29
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c36a936ce30e5080800000000000000
+      internalID: -9196909075225746493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_112
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576b7c67fbcf16260800000000000000
+      internalID: 7089225187719624309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_113
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c3a55de480cfeb0800000000000000
+      internalID: -4684860377692226412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_114
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c8201b30e17e110800000000000000
+      internalID: 1290032819468405770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_115
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5de04e9b76aadc20800000000000000
+      internalID: 3232078732457995615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_116
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6646117763a93a0800000000000000
+      internalID: -6657949214093056309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_117
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c32244ef1abd3150800000000000000
+      internalID: 5854039736787805129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_118
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e86a63e971c16f80800000000000000
+      internalID: -8114992324294317854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d73f1c3d051e270800000000000000
+      internalID: 8277986460505963922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_120
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef68cc691df2538e0800000000000000
+      internalID: -1714411505919949058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_121
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0895475ca8ea2ee30800000000000000
+      internalID: 4531376086129596800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_122
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e09880ede72eb20800000000000000
+      internalID: 3162229380458548780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_123
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82b1e047b095f590800000000000000
+      internalID: -7641042076022230389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_124
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c813b7e48220a40800000000000000
+      internalID: 5332869226299493404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_125
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9967253e648ca5660800000000000000
+      internalID: 7375427546559706777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_126
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ab5bacf3865610800000000000000
+      internalID: 1609619038061437703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_127
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b025fedbaad6bf0800000000000000
+      internalID: -329419464987505788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_128
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d209e6e3fb2c600800000000000000
+      internalID: 487161984573254940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_129
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f814324ae4b3c4c10800000000000000
+      internalID: 2039069940239253903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_130
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c9496cb92facdf0800000000000000
+      internalID: -159048085952750459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_131
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491e2c1cdb77c8070800000000000000
+      internalID: 8109988685870719380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_132
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d77886147858f0800000000000000
+      internalID: -551563314225227613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_133
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eeaee93dbd30de0800000000000000
+      internalID: -1368008159839719923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_134
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c729f539a3fb270800000000000000
+      internalID: 8268391845513559161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserBeamSheet_135
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e34332e14b2da70800000000000000
+      internalID: 8850334259269090924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
