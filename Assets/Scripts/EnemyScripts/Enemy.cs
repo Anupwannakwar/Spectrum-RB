@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
        
         if (BaseHealth <= 0)
         { 
-            if (enemyName == EnemyName.SentryDrone)
+            if (enemyName == EnemyName.SentryDrone || enemyName == EnemyName.BipedalUnit || enemyName == EnemyName.MechUnit)
                 StartCoroutine(Destroyed());
             else
                 Destroy(this.gameObject);
@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour
     public IEnumerator Destroyed()
     {
         anim.SetBool("Destroyed", true);
-        yield return new WaitForSeconds(0.35f);
+        yield return new WaitForSeconds(0.45f);
         Destroy(this.gameObject);
     }
 }

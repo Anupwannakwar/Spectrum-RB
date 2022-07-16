@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BaseHealth: 100
-  anim: {fileID: 0}
+  anim: {fileID: 9098801568392073877}
   healthbar: {fileID: 0}
   enemyName: 3
 --- !u!70 &9098801568392073879
