@@ -69,7 +69,7 @@ public class SpectrumBar : MonoBehaviour
     {
         while(GameManager.instance.RedActive && currentRedValue >= 0)
         {
-            currentRedValue -= maxValue / 50;
+            currentRedValue -= maxValue / 500;
             RedBar.value = currentRedValue;
             yield return new WaitForSeconds(0.1f);
         }
@@ -86,7 +86,7 @@ public class SpectrumBar : MonoBehaviour
     {
         while (GameManager.instance.BlueActive && currentBlueValue >= 0)
         {
-            currentBlueValue -= maxValue / 50;
+            currentBlueValue -= maxValue / 500;
             BlueBar.value = currentBlueValue;
             yield return new WaitForSeconds(0.1f);
         }

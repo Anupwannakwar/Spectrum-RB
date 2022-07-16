@@ -23,6 +23,7 @@ public class BulletScript : MonoBehaviour
     public bool ShotByPlayer { set { shotByPlayer = value; } }
 
     private float bulletSpeed = 10;
+    private bool Bullethit = false;
 
     private void Awake()
     {
@@ -46,26 +47,30 @@ public class BulletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (facingRight)
+        if(!Bullethit)
         {
-            transform.Translate(Vector3.right * Time.deltaTime * bulletSpeed);
-            this.GetComponent<SpriteRenderer>().flipX = false;
-        }
-        else if (!facingRight)
-        {
-            transform.Translate(-Vector3.right * Time.deltaTime * bulletSpeed);
-            this.GetComponent<SpriteRenderer>().flipX = true;
-        }
+            if (facingRight)
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * bulletSpeed);
+                this.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (!facingRight)
+            {
+                transform.Translate(-Vector3.right * Time.deltaTime * bulletSpeed);
+                this.GetComponent<SpriteRenderer>().flipX = true;
+            }
+        } 
 
         StartCoroutine(DeactivateBullet(5));
     }
 
-    IEnumerator DeactivateBullet(int waitTime)
+    IEnumerator DeactivateBullet(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
 
        // gameObject.transform.SetParent(bulletHolder);
         transform.position = transform.parent.position;
+        Bullethit = false;
         gameObject.SetActive(false);
     }
 
@@ -73,30 +78,34 @@ public class BulletScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && shotByPlayer)
         {
-            if(collision.gameObject.GetComponent<DroidZapper>() != null)
+            if(collision.gameObject.GetComponent<CommonEnemyBehaviour>() != null)
             {
-                if (GameManager.instance.RedActive && collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
+                if (GameManager.instance.RedActive && collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumR)
                 {
                     DealDamage(collision.gameObject.GetComponent<Enemy>());
-                    StartCoroutine(DeactivateBullet(0));
+                    DisableBulletAfterHittingEnemy();
                 }
-                if (GameManager.instance.BlueActive && !collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
+                if (GameManager.instance.BlueActive && collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumB)
                 {
                     DealDamage(collision.gameObject.GetComponent<Enemy>());
-                    StartCoroutine(DeactivateBullet(0));
+                    DisableBulletAfterHittingEnemy();
+                }
+                if(!collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumR && !collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumB)
+                {
+                    DealDamage(collision.gameObject.GetComponent<Enemy>());
+                    DisableBulletAfterHittingEnemy();
                 }
             }
             else if(collision.gameObject.GetComponent<Striker>() != null)
             {
                 DealDamage(collision.gameObject.GetComponent<Enemy>());
-                StartCoroutine(DeactivateBullet(0));
+                DisableBulletAfterHittingEnemy();
             }
             else if(collision.gameObject.GetComponent<Sentry_Drone>() != null)
             {
                 DealDamage(collision.gameObject.GetComponent<Enemy>());
-                StartCoroutine(DeactivateBullet(0));
+                DisableBulletAfterHittingEnemy();
             }
-            
         }
     }
 
@@ -114,5 +123,12 @@ public class BulletScript : MonoBehaviour
                 enemy.takeDamage(5);
                 break;
         }
+    }
+
+    private void DisableBulletAfterHittingEnemy()
+    {
+        Bullethit = true;
+        GetComponent<Animator>().SetBool("Destroy", true);
+        StartCoroutine(DeactivateBullet(0.2f));
     }
 }

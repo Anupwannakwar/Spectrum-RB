@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DroidZapper : MonoBehaviour
+public class CommonEnemyBehaviour : MonoBehaviour
 {
     public float moveSpeed;
     private Rigidbody2D rb;
     private float dirx = -1;
     public Patrol patrol;
     public bool isSpectrumR;
+    public bool isSpectrumB;
 
     //for attacking
     public Transform EnemyattackPos;
@@ -30,12 +31,9 @@ public class DroidZapper : MonoBehaviour
 
     private Animator anim;
 
-    //public int ZapperHealth;
     //effects
-
+    public GameObject ForceField;
     public SpriteRenderer spriter;
-
-    //public AudioSource audsrc;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +41,6 @@ public class DroidZapper : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponent<Animator>();
-        //audsrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -69,8 +66,8 @@ public class DroidZapper : MonoBehaviour
         else isFollowing = false;
 
         Move();
-        
-        if(isSpectrumR)
+
+        if (isSpectrumR)
         {
             if (GameManager.instance.RedActive == true)
             {
@@ -81,8 +78,8 @@ public class DroidZapper : MonoBehaviour
                 spriter.enabled = false;
             }
         }
-        
-        else if(!isSpectrumR)
+
+        else if (isSpectrumB)
         {
             if (GameManager.instance.BlueActive == true)
             {
@@ -92,6 +89,10 @@ public class DroidZapper : MonoBehaviour
             {
                 spriter.enabled = false;
             }
+        }
+        else
+        {
+            spriter.enabled = true;
         }
     }
 
@@ -117,7 +118,27 @@ public class DroidZapper : MonoBehaviour
         }
         else
         {
-            anim.SetBool("IsAttacking", false);
+            switch (GetComponent<Enemy>().enemyName)
+            {
+                case Enemy.EnemyName.DroidZapper:
+                    anim.SetBool("IsAttacking", false);
+                    break;
+                case Enemy.EnemyName.SentryDrone:
+                    break;
+                case Enemy.EnemyName.Striker:
+                    break;
+                case Enemy.EnemyName.MechUnit:
+                    break;
+                case Enemy.EnemyName.BipedalUnit:
+                    break;
+                case Enemy.EnemyName.SpaceMarine:
+                    break;
+                case Enemy.EnemyName.BotWheel:
+                    break;
+                default:
+                    break;
+            }
+            
             rb.velocity = Vector2.right * dirx * moveSpeed;
         }
     }
@@ -134,14 +155,40 @@ public class DroidZapper : MonoBehaviour
 
     private void attackPlayer()
     {
+        int damage = -5;
+
         if (timeBtwAttack <= 0)
         {
-            anim.SetBool("IsAttacking", true);
-            Collider2D[] ToHit = Physics2D.OverlapBoxAll(EnemyattackPos.position,new Vector2(EnemyattackRangeX,EnemyattackRangeY),0, whatIsPlayer);
+            switch (GetComponent<Enemy>().enemyName)
+            {
+                case Enemy.EnemyName.DroidZapper:
+                    anim.SetBool("IsAttacking", true);
+                    damage = -5;
+                    break;
+                case Enemy.EnemyName.SentryDrone:
+                    break;
+                case Enemy.EnemyName.Striker:
+                    break;
+                case Enemy.EnemyName.MechUnit:
+                    damage = -15;
+                    ForceField.SetActive(true);
+                    break;
+                case Enemy.EnemyName.BipedalUnit:
+                    damage = -15;
+                    ForceField.SetActive(true);
+                    break;
+                case Enemy.EnemyName.SpaceMarine:
+                    break;
+                case Enemy.EnemyName.BotWheel:
+                    break;
+                default:
+                    break;
+            }
+            
+            Collider2D[] ToHit = Physics2D.OverlapBoxAll(EnemyattackPos.position, new Vector2(EnemyattackRangeX, EnemyattackRangeY), 0, whatIsPlayer);
             for (int i = 0; i < ToHit.Length; i++)
             {
-                //ToHit[i].GetComponent<PlayerMovement>().TakeDamage(damage);
-                EventManager.Instance.UpdateHealth(-5);
+                EventManager.Instance.UpdateHealth(damage);
                 Debug.Log("Player Damaged");
             }
             timeBtwAttack = startTimeBtwAttack;
@@ -152,38 +199,10 @@ public class DroidZapper : MonoBehaviour
         }
     }
 
-    //public void takeDamage(int Damage)
-    //{
-    //    ZapperHealth -= Damage;
-    //    anim.SetTrigger("IsHurt");
-    //    if (ZapperHealth == 0)
-    //    {
-    //        Destroy(this.gameObject);
-
-    //    }
-    //}
-
-   /* public void setVolume(float musicvol)
-    {
-        audsrc.volume = musicvol;
-    }
-
-    public void Mute()
-    {
-        if (audsrc.mute)
-        {
-            audsrc.mute = false;
-        }
-        else
-        {
-            audsrc.mute = true;
-        }
-    }*/
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectRange);
-        Gizmos.DrawWireCube(EnemyattackPos.position, new Vector3(EnemyattackRangeX,EnemyattackRangeY,0));
+        Gizmos.DrawWireCube(EnemyattackPos.position, new Vector3(EnemyattackRangeX, EnemyattackRangeY, 0));
     }
 }

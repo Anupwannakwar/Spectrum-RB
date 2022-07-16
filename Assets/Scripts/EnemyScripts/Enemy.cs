@@ -15,7 +15,11 @@ public class Enemy : MonoBehaviour
     {
         DroidZapper,
         SentryDrone,
-        Striker
+        Striker,
+        MechUnit,
+        BipedalUnit,
+        SpaceMarine,
+        BotWheel
     }
 
     public EnemyName enemyName;
