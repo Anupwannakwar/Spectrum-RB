@@ -45,6 +45,15 @@ public class PlayerMovement : MonoBehaviour
     private float timeBetweenShots;
     public float StartTimeBtwShots;
 
+    [SerializeField] private float ChargeSpeed;
+    [SerializeField] private float ChargeTime;
+    public bool isCharging;
+
+    public GameObject chargeEffect;
+    private GameObject charge;
+
+    private bool instantiateCharge = true;
+
     //player health
     private const int MAXHEALTH = 100;
     private int m_health;
@@ -75,13 +84,12 @@ public class PlayerMovement : MonoBehaviour
     {
         timeBetweenShots = StartTimeBtwShots;
 
-        m_health = MAXHEALTH;    
+        m_health = MAXHEALTH;
     }
 
     // Update is called once per frame
     void Update()
     {
-
         //Running and Walking
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && horizontal != 0)
@@ -136,17 +144,43 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Shooting
-        if(timeBetweenShots <= 0)
+        if (Input.GetMouseButton(0) && ChargeTime < 2)
         {
-            if (Input.GetMouseButton(0))
+            isCharging = true;
+            if (isCharging == true)
+            {
+                ChargeTime += Time.deltaTime * ChargeSpeed;
+                anim.SetBool("IsShooting", true);
+                if(ChargeTime > 1 && instantiateCharge)
+                {
+                    InstantiateChargedEffect();
+                    instantiateCharge = false;
+                }
+            }
+            else
+            {
+                destroyChargedEffect();
+            }
+        }
+        if (timeBetweenShots <= 0)
+        {      
+            if(Input.GetMouseButtonUp(0) && ChargeTime >= 2)
+            {
+                ChargedShot();
+            }
+            else if (Input.GetMouseButtonUp(0))
             {
                 anim.SetBool("IsShooting", true);
                 Shoot();
                 timeBetweenShots = StartTimeBtwShots;
+                isCharging = false;
+                instantiateCharge = true;
+                destroyChargedEffect();
             }
             else
             {
-                anim.SetBool("IsShooting", false);
+                if(isCharging == false)
+                    anim.SetBool("IsShooting", false);
             }
         }
         else
@@ -199,6 +233,57 @@ public class PlayerMovement : MonoBehaviour
         bullet.GetComponent<BulletScript>().ShotByPlayer = true;
         bullet.GetComponent<BulletScript>().FacingRight = controller.m_FacingRight;
         bullet.SetActive(true);
+
+        ChargeTime = 0;
+    }
+
+    public void ChargedShot()
+    {
+        GameObject bullet = bulletList.GetChargedBullet();
+        if (!Crouch)
+        {
+            bullet.GetComponent<BulletScript>().BulletHolder = ShootPoint;
+        }
+        else
+        {
+            bullet.GetComponent<BulletScript>().BulletHolder = ShootPoint2;
+        }
+        if (horizontal != 0 && !isWalking)
+        {
+            bullet.GetComponent<BulletScript>().BulletHolder = ShootPoint3;
+        }
+        bullet.GetComponent<BulletScript>().ShotByPlayer = true;
+        bullet.GetComponent<BulletScript>().FacingRight = controller.m_FacingRight;
+        bullet.SetActive(true);
+
+        destroyChargedEffect();
+
+        isCharging = false;
+        instantiateCharge = true;
+        ChargeTime = 0;
+        anim.SetBool("IsShooting", false);
+    }
+
+    public void InstantiateChargedEffect()
+    {
+        if (!Crouch)
+        {
+           charge = Instantiate(chargeEffect, ShootPoint);
+        }
+        else
+        {
+           charge = Instantiate(chargeEffect, ShootPoint2);
+        }
+        if (horizontal != 0 && !isWalking)
+        {
+            destroyChargedEffect();
+           charge = Instantiate(chargeEffect, ShootPoint3);
+        }
+    }
+
+    public void destroyChargedEffect()
+    {
+        Destroy(charge);
     }
 
     public void UpdatePlayerHealth(int health)

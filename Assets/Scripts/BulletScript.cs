@@ -6,6 +6,15 @@ public class BulletScript : MonoBehaviour
 {
     private Transform player;
     private Transform bulletHolder = null;
+
+    public enum BulletType
+    {
+        Normal,
+        Charged,
+    }
+
+    public BulletType bulletType;
+
     public Transform BulletHolder { set { bulletHolder = value; } }
 
     private bool facingRight;
@@ -26,7 +35,6 @@ public class BulletScript : MonoBehaviour
 
     private void OnEnable()
     {
-
         if (bulletHolder != null)
             transform.position = bulletHolder.position;
         else
@@ -41,10 +49,12 @@ public class BulletScript : MonoBehaviour
         if (facingRight)
         {
             transform.Translate(Vector3.right * Time.deltaTime * bulletSpeed);
+            this.GetComponent<SpriteRenderer>().flipX = false;
         }
         else if (!facingRight)
         {
             transform.Translate(-Vector3.right * Time.deltaTime * bulletSpeed);
+            this.GetComponent<SpriteRenderer>().flipX = true;
         }
 
         StartCoroutine(DeactivateBullet(5));
@@ -67,38 +77,42 @@ public class BulletScript : MonoBehaviour
             {
                 if (GameManager.instance.RedActive && collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
                 {
-                    collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                    DealDamage(collision.gameObject.GetComponent<Enemy>());
                     StartCoroutine(DeactivateBullet(0));
                 }
                 if (GameManager.instance.BlueActive && !collision.gameObject.GetComponent<DroidZapper>().isSpectrumR)
                 {
-                    collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                    DealDamage(collision.gameObject.GetComponent<Enemy>());
                     StartCoroutine(DeactivateBullet(0));
                 }
             }
             else if(collision.gameObject.GetComponent<Striker>() != null)
             {
-                collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                DealDamage(collision.gameObject.GetComponent<Enemy>());
                 StartCoroutine(DeactivateBullet(0));
             }
             else if(collision.gameObject.GetComponent<Sentry_Drone>() != null)
             {
-                collision.gameObject.GetComponent<Enemy>().takeDamage(5);
+                DealDamage(collision.gameObject.GetComponent<Enemy>());
                 StartCoroutine(DeactivateBullet(0));
             }
             
         }
-        
-        /*if(collision.gameObject.CompareTag("Player") && !shotByPlayer)
-        {
-            EventManager.Instance.UpdateHealth(-20);
-            //collision.gameObject.GetComponent<PlayerController>().HurtPlayer(20);
-            StartCoroutine(DeactivateBullet(0));
-        }
+    }
 
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+    private void DealDamage(Enemy enemy)
+    {
+        switch (bulletType)
         {
-            StartCoroutine(DeactivateBullet(0));
-        }*/
+            case BulletType.Normal:
+                enemy.takeDamage(5);
+                break;
+            case BulletType.Charged:
+                enemy.takeDamage(15);
+                break;
+            default:
+                enemy.takeDamage(5);
+                break;
+        }
     }
 }

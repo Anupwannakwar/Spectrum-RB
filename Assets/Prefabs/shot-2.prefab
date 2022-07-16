@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -644011772898955062}
   - component: {fileID: 928001678647335070}
   - component: {fileID: 1261313519058281989}
+  - component: {fileID: 3594634613452547816}
   m_Layer: 13
   m_Name: shot-2
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4851836514805210882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.538399, y: -1.5181748, z: 0}
-  m_LocalScale: {x: 1.8842973, y: 1.8842973, z: 1.8842973}
+  m_LocalScale: {x: 1.169772, y: 1.1697718, z: 1.1697718}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -67232483
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2dfb6a372f477264bbb4829b926d34e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f4c9b62b0751bc4487810f96d5aa147, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,3 +135,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &3594634613452547816
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4851836514805210882}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e32c5ad479608ae4c81dd45565263a33, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
