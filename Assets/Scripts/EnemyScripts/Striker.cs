@@ -49,7 +49,7 @@ public class Striker : MonoBehaviour
         Collider2D[] ToHit = Physics2D.OverlapBoxAll(EnemyattackPos.position, new Vector2(EnemyattackRangeX, EnemyattackRangeY), 0, whatIsPlayer);
         for (int i = 0; i < ToHit.Length; i++)
         {
-            EventManager.Instance.UpdateHealth(-7);
+            EventManager.Instance.UpdateHealth(-7f);
         }         
     }
 
@@ -58,7 +58,7 @@ public class Striker : MonoBehaviour
         Collider2D[] ToHit = Physics2D.OverlapBoxAll(EnemyShootPos.position, new Vector2(EnemyShootRangeX, EnemyShootRangeY), 0, whatIsPlayer);
         for (int i = 0; i < ToHit.Length; i++)
         {
-            EventManager.Instance.UpdateHealth(-25);
+            EventManager.Instance.UpdateHealth(-25f);
         }    
     }
 

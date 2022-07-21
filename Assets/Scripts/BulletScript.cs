@@ -11,6 +11,7 @@ public class BulletScript : MonoBehaviour
     {
         Normal,
         Charged,
+        special
     }
 
     public BulletType bulletType;
@@ -80,21 +81,29 @@ public class BulletScript : MonoBehaviour
         {
             if(collision.gameObject.GetComponent<CommonEnemyBehaviour>() != null)
             {
-                if (GameManager.instance.RedActive && collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumR)
+                if(bulletType == BulletType.special)
                 {
                     DealDamage(collision.gameObject.GetComponent<Enemy>());
                     DisableBulletAfterHittingEnemy();
                 }
-                if (GameManager.instance.BlueActive && collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumB)
+                else
                 {
-                    DealDamage(collision.gameObject.GetComponent<Enemy>());
-                    DisableBulletAfterHittingEnemy();
-                }
-                if(!collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumR && !collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumB)
-                {
-                    DealDamage(collision.gameObject.GetComponent<Enemy>());
-                    DisableBulletAfterHittingEnemy();
-                }
+                    if (GameManager.instance.RedActive && collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumR)
+                    {
+                        DealDamage(collision.gameObject.GetComponent<Enemy>());
+                        DisableBulletAfterHittingEnemy();
+                    }
+                    if (GameManager.instance.BlueActive && collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumB)
+                    {
+                        DealDamage(collision.gameObject.GetComponent<Enemy>());
+                        DisableBulletAfterHittingEnemy();
+                    }
+                    if (!collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumR && !collision.gameObject.GetComponent<CommonEnemyBehaviour>().isSpectrumB)
+                    {
+                        DealDamage(collision.gameObject.GetComponent<Enemy>());
+                        DisableBulletAfterHittingEnemy();
+                    }
+                }   
             }
             else if(collision.gameObject.GetComponent<Striker>() != null)
             {
@@ -118,6 +127,9 @@ public class BulletScript : MonoBehaviour
                 break;
             case BulletType.Charged:
                 enemy.takeDamage(15);
+                break;
+            case BulletType.special:
+                enemy.takeDamage(30);
                 break;
             default:
                 enemy.takeDamage(5);

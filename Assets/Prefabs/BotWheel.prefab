@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6644595088954473332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 88866734717033207}
+  m_Layer: 0
+  m_Name: AttackPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &88866734717033207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6644595088954473332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.119, y: 0.043, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7857172112380366750}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7857172112380366721
 GameObject:
   m_ObjectHideFlags: 0
@@ -15,6 +45,7 @@ GameObject:
   - component: {fileID: 7857172112380366722}
   - component: {fileID: 7857172112380366744}
   - component: {fileID: 7857172112380366751}
+  - component: {fileID: 2962850143303944255}
   m_Layer: 0
   m_Name: BotWheel
   m_TagString: Enemy
@@ -32,7 +63,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 64.73389, y: -49.546, z: 0}
   m_LocalScale: {x: 3.5962, y: 3.5962, z: 3.5962}
-  m_Children: []
+  m_Children:
+  - {fileID: 88866734717033207}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -155,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e11c98933ff09f4283aaf3a5f61107a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolingRange: 5
+  patrolingRange: 2
   isFacingRight: 1
 --- !u!114 &7857172112380366751
 MonoBehaviour:
@@ -173,3 +205,33 @@ MonoBehaviour:
   anim: {fileID: 7857172112380366722}
   healthbar: {fileID: 0}
   enemyName: 6
+--- !u!114 &2962850143303944255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7857172112380366721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984c7c0a6a6ac84db8c106f1a8a3d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4
+  patrol: {fileID: 7857172112380366744}
+  isSpectrumR: 0
+  isSpectrumB: 0
+  EnemyattackPos: {fileID: 88866734717033207}
+  EnemyattackRangeX: 17.28
+  EnemyattackRangeY: 0.69
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  damage: 5
+  startTimeBtwAttack: 0.5
+  detectRange: 9.1
+  target: {fileID: 1233047276236761440, guid: 4ba7daba66eeaae44a6fbd31f09e61d1, type: 3}
+  stopingDistance: 3.5
+  ForceField: {fileID: 0}
+  Bullet: {fileID: 6277005116776041968, guid: a81c29c010ec95a4c877a0e704a3cd6b, type: 3}
+  spriter: {fileID: 7857172112380366749}

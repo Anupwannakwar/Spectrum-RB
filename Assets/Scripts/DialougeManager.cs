@@ -15,6 +15,11 @@ public class DialougeManager : MonoBehaviour
 
     public Animator anim;
 
+    public Image RaeAvatar;
+    public Image DroneAvatar;
+
+    public bool toggleAvatar = false;
+
     private void Awake()
     {
         if (instance == null)
@@ -30,6 +35,8 @@ public class DialougeManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        RaeAvatar.gameObject.SetActive(false);
+        DroneAvatar.gameObject.SetActive(false);
     }
 
     public void StartDialouge (Dialouge dialouge)
@@ -59,6 +66,21 @@ public class DialougeManager : MonoBehaviour
             return;
         }
 
+        if(toggleAvatar == true)
+        {
+            RaeAvatar.gameObject.SetActive(false);
+            DroneAvatar.gameObject.SetActive(true);
+            nameText.text = "GIGA DRONE";
+            toggleAvatar = false;
+        }
+        else
+        {
+            RaeAvatar.gameObject.SetActive(true);
+            DroneAvatar.gameObject.SetActive(false);
+            nameText.text = "RAE";
+            toggleAvatar = true;
+        }
+
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
@@ -79,5 +101,8 @@ public class DialougeManager : MonoBehaviour
         GameManager.instance.isConversing = false;
         anim.SetBool("IsOpen", false);
         Debug.Log("End Of Conversation");
+        GameManager.instance.SpecialAbilityActive = true;
     }
+
+
 }

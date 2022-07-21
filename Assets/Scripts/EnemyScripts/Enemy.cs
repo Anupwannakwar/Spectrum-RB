@@ -19,7 +19,8 @@ public class Enemy : MonoBehaviour
         MechUnit,
         BipedalUnit,
         SpaceMarine,
-        BotWheel
+        BotWheel,
+        turret
     }
 
     public EnemyName enemyName;
@@ -36,20 +37,30 @@ public class Enemy : MonoBehaviour
     {
         BaseHealth -= Damage;
 
-        if(enemyName == EnemyName.Striker)
+        if(GameManager.instance.SpecialAbilityActive)
+        {
+            if (GameManager.instance.healthBar.slider.value <= 10)
+            {
+                GameManager.instance.healthBar.setPowerBar((int)GameManager.instance.healthBar.slider.value + 1);
+            }
+        }
+       
+        if (enemyName == EnemyName.Striker)
         {
             healthbar.setBossHealth(BaseHealth);
         }
         else
         {
-            if(enemyName == EnemyName.DroidZapper)
+            if(enemyName == EnemyName.DroidZapper || enemyName == EnemyName.BotWheel)
                 anim.SetTrigger("IsHurt");
         }
        
         if (BaseHealth <= 0)
         { 
-            if (enemyName == EnemyName.SentryDrone || enemyName == EnemyName.BipedalUnit || enemyName == EnemyName.MechUnit)
+            if (enemyName == EnemyName.SentryDrone || enemyName == EnemyName.BipedalUnit || enemyName == EnemyName.MechUnit || enemyName == EnemyName.turret)
                 StartCoroutine(Destroyed());
+            else if((enemyName == EnemyName.BotWheel || enemyName == EnemyName.SpaceMarine || enemyName == EnemyName.DroidZapper))
+                StartCoroutine(Dead());
             else
                 Destroy(this.gameObject);
         }
@@ -57,7 +68,17 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator Destroyed()
     {
+        if (enemyName == EnemyName.turret)
+            anim.SetBool("Shoot", false);
+
         anim.SetBool("Destroyed", true);
+        yield return new WaitForSeconds(0.45f);
+        Destroy(this.gameObject);
+    }
+
+    public IEnumerator Dead()
+    {
+        anim.SetBool("Dead", true);
         yield return new WaitForSeconds(0.45f);
         Destroy(this.gameObject);
     }

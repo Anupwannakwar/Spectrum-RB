@@ -33,6 +33,7 @@ public class CommonEnemyBehaviour : MonoBehaviour
 
     //effects
     public GameObject ForceField;
+    public GameObject Bullet;
     public SpriteRenderer spriter;
 
     // Start is called before the first frame update
@@ -132,8 +133,13 @@ public class CommonEnemyBehaviour : MonoBehaviour
                 case Enemy.EnemyName.BipedalUnit:
                     break;
                 case Enemy.EnemyName.SpaceMarine:
+                    anim.SetBool("Shoot", false);
                     break;
                 case Enemy.EnemyName.BotWheel:
+                    anim.SetBool("Shoot", false);
+                    break;
+                case Enemy.EnemyName.turret:
+                    anim.SetBool("Shoot", false);
                     break;
                 default:
                     break;
@@ -155,7 +161,8 @@ public class CommonEnemyBehaviour : MonoBehaviour
 
     private void attackPlayer()
     {
-        int damage = -5;
+        float damage = -5f;
+        int iteration = 1;
 
         if (timeBtwAttack <= 0)
         {
@@ -163,6 +170,7 @@ public class CommonEnemyBehaviour : MonoBehaviour
             {
                 case Enemy.EnemyName.DroidZapper:
                     anim.SetBool("IsAttacking", true);
+                    SoundManager.instance.PlaySound("zap");
                     damage = -5;
                     break;
                 case Enemy.EnemyName.SentryDrone:
@@ -172,24 +180,44 @@ public class CommonEnemyBehaviour : MonoBehaviour
                 case Enemy.EnemyName.MechUnit:
                     damage = -15;
                     ForceField.SetActive(true);
+                    SoundManager.instance.PlaySound("shield");
                     break;
                 case Enemy.EnemyName.BipedalUnit:
                     damage = -15;
                     ForceField.SetActive(true);
+                    SoundManager.instance.PlaySound("shield");
                     break;
                 case Enemy.EnemyName.SpaceMarine:
                     break;
                 case Enemy.EnemyName.BotWheel:
+                    anim.SetBool("Shoot", true);
+                    break;
+                case Enemy.EnemyName.turret:
+                    anim.SetBool("Shoot", true);
                     break;
                 default:
                     break;
             }
             
             Collider2D[] ToHit = Physics2D.OverlapBoxAll(EnemyattackPos.position, new Vector2(EnemyattackRangeX, EnemyattackRangeY), 0, whatIsPlayer);
-            for (int i = 0; i < ToHit.Length; i++)
+
+            if (ToHit.Length != 0)
+                iteration = 1;
+            else
+                iteration = 0;
+
+            for (int i = 0; i < iteration; i++)
             {
-                EventManager.Instance.UpdateHealth(damage);
-                Debug.Log("Player Damaged");
+                if (GetComponent<Enemy>().enemyName == Enemy.EnemyName.BotWheel || GetComponent<Enemy>().enemyName == Enemy.EnemyName.SpaceMarine || GetComponent<Enemy>().enemyName == Enemy.EnemyName.turret)
+                {
+                   Instantiate(Bullet, EnemyattackPos);
+                   SoundManager.instance.PlaySound("shoot");
+                }
+                else
+                {
+                    EventManager.Instance.UpdateHealth(damage);
+                    Debug.Log("Player Damaged");
+                }            
             }
             timeBtwAttack = startTimeBtwAttack;
         }

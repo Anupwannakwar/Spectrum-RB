@@ -6,13 +6,6 @@ public class DialougeTrigger : MonoBehaviour
 {
     public Dialouge dialouge;
 
-    public Animator anim;
-
-    private void Start()
-    {
-        anim.SetBool("isIdle", true);
-    }
-
     public void TriggerDialouge()
     {
         DialougeManager.instance.StartDialouge(dialouge);
@@ -22,7 +15,7 @@ public class DialougeTrigger : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.T) && collision.gameObject.tag == "Player")
+        if (Input.GetKeyDown(KeyCode.F) && collision.gameObject.tag == "Player")
         {
             TriggerDialouge();
         }

@@ -189,6 +189,7 @@ MonoBehaviour:
   target: {fileID: 1233047276236761440, guid: 4ba7daba66eeaae44a6fbd31f09e61d1, type: 3}
   stopingDistance: 0.99
   ForceField: {fileID: 0}
+  Bullet: {fileID: 0}
   spriter: {fileID: 7128718269695773660}
 --- !u!114 &4267052101892006087
 MonoBehaviour:

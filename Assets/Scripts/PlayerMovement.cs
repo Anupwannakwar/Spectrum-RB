@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
     //player health
     private const int MAXHEALTH = 100;
-    private int m_health;
+    private float m_health;
 
     private void OnEnable()
     {
@@ -166,10 +166,12 @@ public class PlayerMovement : MonoBehaviour
         {      
             if(Input.GetMouseButtonUp(0) && ChargeTime >= 2)
             {
+                SoundManager.instance.PlaySound("charged");
                 ChargedShot();
             }
             else if (Input.GetMouseButtonUp(0))
             {
+                SoundManager.instance.PlaySound("shoot");
                 anim.SetBool("IsShooting", true);
                 Shoot();
                 timeBetweenShots = StartTimeBtwShots;
@@ -186,6 +188,16 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             timeBetweenShots -= Time.deltaTime;
+        }
+
+        //special shot
+        if(GameManager.instance.SpecialReady == true && Input.GetMouseButtonDown(1) && isCharging == false && GameManager.instance.SpecialAbilityActive)
+        {
+            anim.SetBool("IsShooting", true);
+            SoundManager.instance.PlaySound("charged");
+            ShootSpecial();
+            GameManager.instance.healthBar.setPowerBar(0);
+            GameManager.instance.SpecialReady = false;   
         }
 
         //changing Spectrum
@@ -264,6 +276,29 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("IsShooting", false);
     }
 
+    public void ShootSpecial()
+    {
+        GameObject bullet = bulletList.GetSpecialBullet();
+        if (!Crouch)
+        {
+            bullet.GetComponent<BulletScript>().BulletHolder = ShootPoint;
+        }
+        else
+        {
+            bullet.GetComponent<BulletScript>().BulletHolder = ShootPoint2;
+        }
+        if (horizontal != 0 && !isWalking)
+        {
+            bullet.GetComponent<BulletScript>().BulletHolder = ShootPoint3;
+        }
+        bullet.GetComponent<BulletScript>().ShotByPlayer = true;
+        bullet.GetComponent<BulletScript>().FacingRight = controller.m_FacingRight;
+        bullet.SetActive(true);
+
+        ChargeTime = 0;
+        anim.SetBool("IsShooting", false);
+    }
+
     public void InstantiateChargedEffect()
     {
         if (!Crouch)
@@ -286,7 +321,7 @@ public class PlayerMovement : MonoBehaviour
         Destroy(charge);
     }
 
-    public void UpdatePlayerHealth(int health)
+    public void UpdatePlayerHealth(float health)
     {
         //Changing health
         m_health += health;
@@ -294,15 +329,30 @@ public class PlayerMovement : MonoBehaviour
         //If player hurt
         if (health < 0)
         {
+            SoundManager.instance.PlaySound("hurt");
             anim.SetTrigger("IsHurt");
             Debug.Log(m_health);
 
             if (m_health <= 0)
             {
+                GameManager.instance.gameover = true;
                 gameObject.SetActive(false);
             }
         }
 
         healthbar.setHealth(m_health);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Spike"))
+        {
+            EventManager.Instance.UpdateHealth(-20f);
+        }
+        if (collision.CompareTag("DeathBound"))
+        {
+            gameObject.SetActive(false);
+            GameManager.instance.gameover = true;
+        }
     }
 }

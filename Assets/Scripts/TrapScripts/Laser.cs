@@ -32,15 +32,15 @@ public class Laser : MonoBehaviour
         {
             if(!GameManager.instance.RedActive && Type == LaserType.Red)
             {
-                EventManager.Instance.UpdateHealth(-15);
+                EventManager.Instance.UpdateHealth(-15f);
             }
             else if(!GameManager.instance.BlueActive && Type == LaserType.Blue)
             {
-                EventManager.Instance.UpdateHealth(-15);
+                EventManager.Instance.UpdateHealth(-15f);
             }
             else if(Type == LaserType.Normal)
             {
-                EventManager.Instance.UpdateHealth(-15);
+                EventManager.Instance.UpdateHealth(-15f);
             }
            
         }

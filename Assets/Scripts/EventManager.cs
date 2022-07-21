@@ -26,10 +26,14 @@ public class EventManager : MonoBehaviour
     }
 
     //Player Health Event
-    public event UnityAction<int> OnUpdateHealth;
+    public event UnityAction<float> OnUpdateHealth;
 
-    public void UpdateHealth(int health)
+    public void UpdateHealth(float health)
     {
-        OnUpdateHealth(health);
+        if(OnUpdateHealth != null)
+        {
+            OnUpdateHealth(health);
+
+        }
     }
 }

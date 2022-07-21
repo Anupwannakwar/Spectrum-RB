@@ -6,10 +6,14 @@ public class FadePlatform : MonoBehaviour
 {
     private bool FadeIn, FadeOut;
     [SerializeField] private float FadeSpeed;
+    [SerializeField] private SpriteRenderer sprite;
     public float Platform_UpTime;
     public float Platform_DownTime;
 
     public float StartDelay;
+
+    public bool isPlatformRed = false;
+    public bool isPlatformBlue = false;
 
     private BoxCollider2D PlatformCollider;
 
@@ -21,7 +25,35 @@ public class FadePlatform : MonoBehaviour
 
     void Update()
     {
-        if(StartDelay >= 0)
+        if (isPlatformRed)
+        {
+            if (GameManager.instance.RedActive == true)
+            {
+                sprite.enabled = true;
+            }
+            else
+            {
+                sprite.enabled = false;
+            }
+        }
+
+        else if (isPlatformBlue)
+        {
+            if (GameManager.instance.BlueActive == true)
+            {
+                sprite.enabled = true;
+            }
+            else
+            {
+                sprite.enabled = false;
+            }
+        }
+        else
+        {
+            sprite.enabled = true;
+        }
+
+        if (StartDelay >= 0)
             StartDelay -= Time.deltaTime;
 
         if (StartDelay <= 0)

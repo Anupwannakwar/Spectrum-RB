@@ -9,6 +9,9 @@ TagManager:
   - Boundary
   - NPC
   - Laser
+  - Spike
+  - DeathBound
+  - Door
   layers:
   - Default
   - TransparentFX

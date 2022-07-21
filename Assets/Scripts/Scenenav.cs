@@ -13,6 +13,4 @@ public class Scenenav : MonoBehaviour {
     {
         Application.Quit();
     }
-
-
 }

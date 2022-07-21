@@ -22,7 +22,7 @@ public class HealthBar : MonoBehaviour
         }
     }
 
-    public void setHealth(int health)
+    public void setHealth(float health)
     {
         _health = health / 100f;
     }
@@ -36,5 +36,15 @@ public class HealthBar : MonoBehaviour
     public void setBossHealth(int health)
     {
         slider.value = health;
+    }
+
+    public void setPowerBar(int value)
+    {
+        slider.value = value;
+    }
+
+    public void setMaxPowerBar(int value)
+    {
+        slider.maxValue = value;
     }
 }
