@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
     private bool instantiateCharge = true;
 
     //player health
-    private const int MAXHEALTH = 100;
+    private const int MAXHEALTH = 500;
     private float m_health;
 
     private void OnEnable()

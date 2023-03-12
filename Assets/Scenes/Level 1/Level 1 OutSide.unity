@@ -1938,6 +1938,10 @@ PrefabInstance:
       propertyPath: StartDelay
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6155696374444387952, guid: cf6445c8c63dd0a49bd6afd339541cde, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6155696374444387953, guid: cf6445c8c63dd0a49bd6afd339541cde, type: 3}
       propertyPath: m_Name
       value: PlatformRed
@@ -4375,6 +4379,10 @@ PrefabInstance:
       propertyPath: StartDelay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8924257424664124321, guid: deb34cb61b6a54645bc924f602405348, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8924257424664124324, guid: deb34cb61b6a54645bc924f602405348, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6182,6 +6190,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform
@@ -6771,6 +6783,10 @@ PrefabInstance:
       propertyPath: StartDelay
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform (3)
@@ -6796,6 +6812,10 @@ PrefabInstance:
     - target: {fileID: 8924257424664124321, guid: deb34cb61b6a54645bc924f602405348, type: 3}
       propertyPath: StartDelay
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924257424664124321, guid: deb34cb61b6a54645bc924f602405348, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8924257424664124324, guid: deb34cb61b6a54645bc924f602405348, type: 3}
       propertyPath: m_RootOrder
@@ -6903,6 +6923,10 @@ PrefabInstance:
       propertyPath: StartDelay
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform (4)
@@ -6968,6 +6992,10 @@ PrefabInstance:
     - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: StartDelay
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
@@ -7113,6 +7141,10 @@ PrefabInstance:
     - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: StartDelay
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
@@ -8230,7 +8262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599109478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.06209, y: -47.472626, z: -10}
+  m_LocalPosition: {x: 25.122559, y: -32.538273, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13748,7 +13780,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &1810774516
 GameObject:
@@ -14442,7 +14474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950006173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.06172, y: -47.616, z: -10}
+  m_LocalPosition: {x: 20.435059, y: -32.586, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 426970977}
@@ -14996,6 +15028,10 @@ PrefabInstance:
     - target: {fileID: 6155696374444387952, guid: cf6445c8c63dd0a49bd6afd339541cde, type: 3}
       propertyPath: StartDelay
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155696374444387952, guid: cf6445c8c63dd0a49bd6afd339541cde, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6155696374444387953, guid: cf6445c8c63dd0a49bd6afd339541cde, type: 3}
       propertyPath: m_Name
@@ -29889,7 +29925,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233047274328734900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.46, y: -48.88, z: 0}
+  m_LocalPosition: {x: 18.82, y: -33.85, z: 0}
   m_LocalScale: {x: 2.7026665, y: 2.7026665, z: 2.7026665}
   m_Children:
   - {fileID: 1233047275791244131}

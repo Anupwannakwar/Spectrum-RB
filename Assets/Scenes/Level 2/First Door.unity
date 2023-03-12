@@ -1656,6 +1656,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1475324650}
     m_Modifications:
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5767918946235201416, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform
@@ -2895,6 +2899,10 @@ PrefabInstance:
     - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: StartDelay
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
@@ -4681,6 +4689,10 @@ PrefabInstance:
       propertyPath: StartDelay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform
@@ -6289,6 +6301,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1475324650}
     m_Modifications:
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5767918946235201416, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform (1)
@@ -7562,7 +7578,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &1338389927
 MonoBehaviour:
@@ -9112,7 +9128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599109478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 68.22789, y: -47.5019, z: -10}
+  m_LocalPosition: {x: 68.24693, y: -47.50164, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12751,6 +12767,10 @@ PrefabInstance:
       propertyPath: StartDelay
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2362031898027317491, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
+      propertyPath: Platform_UpTime
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2362031898027317495, guid: d515a9f3d8dada248a05fbcdfc02205d, type: 3}
       propertyPath: m_Name
       value: Platform (2)
@@ -13927,7 +13947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950006173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 75.751724, y: -47.536, z: -10}
+  m_LocalPosition: {x: 75.76506, y: -47.536, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 426970977}
